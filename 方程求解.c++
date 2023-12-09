@@ -22,3 +22,4 @@ int main(){
     if(p==1){cout<<"YES";}else{cout<<"NO";}
 }
 
+//https://ac.nowcoder.com/acm/problem/14416
