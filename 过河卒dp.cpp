@@ -22,7 +22,7 @@ int main(){
     arr[c+2][d-1]=1;
     step[1][1]=1;
     for(int i=1;i<=a;i++)
-		for(int j=1;j<=b;j++) 
+	for(int j=1;j<=b;j++) 
             if((i!=1||j!=1)&&arr[i][j]!=1) 
                 step[i][j]=step[i-1][j]+step[i][j-1];//不能走进马的控制点
     cout<<step[a][b];
