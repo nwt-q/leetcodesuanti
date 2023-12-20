@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string reverseStr(string s, int k) {
+    string reverseStr(string s) {
         int l = 0;
         int r = s.length() - 1;
         while (l < r) {
