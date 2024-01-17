@@ -9,16 +9,16 @@ int cal(int x)
     return ((x+1)/2+x/4);
 }
 
-void slove(){
+bool slove(){
     int a,b,c,x,y;cin>>a>>b>>c;
     int deeta =  b*b - 4*a*c;//判断是否有根
-    if(d>=0) {
-        if(d>0) {
-            x = ((-b) + sqrt(d)/(2*a));//求根公式
-            y = ((-b) - sqrt(d)/(2*a));
+    if(deeta>=0) {
+        if(deeta>0) {
+            x = ((-b) + sqrt(deeta)/(2*a));//求根公式
+            y = ((-b) - sqrt(deeta)/(2*a));
             cout<<x<<" "<<y;
         }else {
-            x = ((-b) + sqrt(d)/(2*a));
+            x = ((-b) + sqrt(deeta)/(2*a));
             cout<<x;
         }
     }else {
