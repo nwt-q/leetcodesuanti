@@ -1,4 +1,4 @@
-class Solution {
+fuclass Solution {
 public:
     string reverseStr(string s) {
         int l = 0;
