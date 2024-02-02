@@ -4,8 +4,8 @@ using namespace std;
 int main(){
     char b[100];  
     std::scanf("%[^\n]s", b);
-    string s;
-    s.assign(b,strlen(b));
+    string s(b); //给s初始化为b
+    s.assign(b,strlen(b)); //将b赋值给s
     cout<<s.substr(0,6)<<"\n";
     reverse(s.begin(),s.end());
     cout<<s;
