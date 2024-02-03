@@ -9,11 +9,11 @@ ll dp[n][m];
 
 
 void slove() {
-    ll N,V;cin >> N >> V;
+    ll N,V;cin >> N >> V; //这个是物品数 N 背包体积V
     for (int i = 1 ; i <= N; i++) {
-        ll w,v;cin >> w >> v;
+        ll w,v;cin >> w >> v; //每个物品的 重量 和 价值
         for (int j = 0; j <= V; j++) {
-            if (j >= w) dp[i][j] = max(dp[i-1][j],dp[i - 1][j - w] + v);
+            if (j >= w) dp[i][j] = max(dp[i-1][j],dp[i - 1][j - w] + v); //递推公式(动态转移方程)
             else dp[i][j] = dp[i - 1][j];
         }
     }
