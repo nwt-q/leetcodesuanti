@@ -31,3 +31,5 @@ int main() {
     #endif
     return 0;
 }
+
+//https://www.lanqiao.cn/courses/21967/learning/?id=1338043&compatibility=false
