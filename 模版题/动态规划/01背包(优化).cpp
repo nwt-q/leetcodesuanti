@@ -30,3 +30,5 @@ int main() {
     #endif
     return 0;
 }
+
+//https://www.acwing.com/problem/content/2/
