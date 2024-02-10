@@ -39,7 +39,6 @@ void slove(){
    for(int i=l;i<=r;i++) ans+=a[i];
    cout<<ans<<endl;//输出答案
 }
-
 int main() {
     ios::sync_with_stdio(0),cin.tie(0),cout.tie(0);
     #if Run
