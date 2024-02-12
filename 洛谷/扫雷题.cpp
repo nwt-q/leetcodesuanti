@@ -26,6 +26,7 @@ void QAQ(int N,int M){
     }
 }
 
+
 int main(){
     int N,M;
     cin>>N>>M;
